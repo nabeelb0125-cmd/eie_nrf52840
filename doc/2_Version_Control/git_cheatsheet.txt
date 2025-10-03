@@ -36,3 +36,22 @@ git rebase
 git fetch
 - Download refs and objects from remote without merging.
 - Example: git fetch upstream main
+
+git add
+- Stage file(s) to be included in the next commit.
+- Example: git add <file>  |  git add .  (stage all changes)
+
+git status
+- Show what’s changed, what’s staged, and which branch you’re on.
+
+git log
+- Show commit history (newest first).
+- Press q to quit the log view.
+
+git diff
+- Show line-by-line differences for unstaged changes.
+- Staged diff: git diff --cached
+
+git push -u <remote> <branch>
+- First push for a new branch; sets upstream so later you can just use 'git push'.
+- Example: git push -u origin lesson2
